@@ -9,5 +9,4 @@ Web Development with HTML/CSS. The main purpose of this project is to create an 
     Step 2: Access the .zip folder on your file explorer & unzip it.
     
     Step 3: Go to the html folder & click on any html files. If you want to access the main page, click on index.html first.
-    
-    Step 4: If you want to configure it for a project, right click on any file & select open with: (choose your preferred coding platform)
+  
