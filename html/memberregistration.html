@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无名缘米粉 - Bee Hoon Delight</title>
+    <link rel="stylesheet" href="../css/externalstylesheet.css">
+</head>
+<body class="cheesechips">
+    
+    <div class="sidebysidehn">
+        <header>
+            <a href="index.html"><h2>无名缘米粉 - Bee Hoon Delight</h2></a>
+            <i><h5>- Handmade noodle specialists -</h5></i>
+        </header>        
+   
+        <nav class="navigationbar">
+            <ul style="list-style-type: none;" class="navigationbar">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="menu.html" target="_blank">Menu</a></li>
+                <li><a href="order.html" target="_blank">Order</a></li>
+                <li><a href="aboutus.html" target="_blank">About Us</a></li>
+                <li> <a href="memberregistration.html" target="_blank">Member Registration</a></li>
+            </ul>
+
+    </nav>
+    </div>
+        <div class="registration">
+    <h3><u>Sign up as a member today to unlock special discounts!</u></h3>
+    <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi" >
+    <fieldset>
+        <legend><h3>Registration</h3></legend>
+        <div>
+            <label>Name:  </label>
+            <input name="Name" type="text" placeholder=" Full name as per NRIC"/>
+        </div>
+        <br>
+        <div title="example: Aa0!ilovecats">
+            <label>Password :</label>
+            <input name="Password" type="password" placeholder="min. 10 characters" minlength="10" pattern="(?=^.{10,}$)(?=.*\d)(?=.*[!@$%^&*])(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" requi
+            
+            red oninvalid="this.setCustomValidity('Password has to include 1 upper&lowercase, 1 numerical value & 1 special symbol')"oninput="this.setCustomValidity('')"/>
+        </div>
+        <br>
+        <div title="Numbers Only">
+            <label for="phone">Enter your phone number:</label> 
+            <input type="tel" name="phone" pattern="[0-9]{4}[0-9]{4}" minlength="8" maxlength="8" placeholder="eg. 8123 4567" required oninvalid="this.setCustomValidity('Only numbers are allowed')"oninput="this.setCustomValidity('')">
+        </div>
+        <br>
+        <div>
+            <label>Gender :</label>
+            <input name="gender" type="radio" value="M" checked="checked"/>Male &nbsp;&nbsp;
+            <input name="gender" type="radio" value="F" />Female &nbsp;&nbsp;
+        </div>
+        <br>
+        <div>
+            <label>Email :</label>
+            <input type="email" name="Email">
+        </div>
+        <br>
+        <div>
+            <label>Address :</label>
+            <input type="text" name="Address" placeholder="(For promotional flyers)">
+        </div>
+        <br>
+        <div>
+            <label>Favourite Food :</label>
+            <input type="text" name="Favourite Food">
+        </div>
+        </fieldset>
+        <div>
+            <p><i>*required</i></p>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset" />
+        </div>
+        <footer>
+            Copyright &copy; 无名缘米粉 2023. All rights reserved.
+                </footer>
+        
+    </div>
+</body>
+
+</html>
