@@ -9,4 +9,7 @@
     Step 2: Access the .zip folder on your file explorer & unzip it.
     
     Step 3: Go to the html folder & click on any html files. If you want to access the main page, click on index.html first.
+
+# NOTE:
+- project required website to be made with a specification of 1024px x 1500px
   
