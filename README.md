@@ -11,5 +11,5 @@
     Step 3: Go to the html folder & click on any html files. If you want to access the main page, click on index.html first.
 
 # NOTE:
-- project required website to be made with a specification of 1024px x 1500px
+- project description specified that the website was to be made with a specification of 1024px x 1500px
   
